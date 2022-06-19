@@ -1,5 +1,5 @@
 # UriOnlineJudge-beeCrowd
-Exercitando codigos python com site com problemas computacionaionais 
+Make some pratice everyday using python to resolve problem's in urionlinejudge 
 <<<<<<< HEAD
 
 testando alteração no readme
