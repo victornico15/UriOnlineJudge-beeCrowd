@@ -1,4 +1,4 @@
 Por favor não fazer coisas indevidas com estas informações 
-
+Efetuando praticas de logica de programação utilizando python 3.0
 
 Inclusão de versão.
