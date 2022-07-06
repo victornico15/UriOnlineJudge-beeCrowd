@@ -2,6 +2,7 @@ x = input().split()
 a, b = x
 if a == '1':
     print('Total: R$ {:.2f}'.format(4.00*float(b)))
+    print("Total: R$ %.2f"%(4.00*float(b)))
 if a == '2':
     print('Total: R$ {:.2f}'.format(4.50*float(b)))
 if a == '3':
