@@ -2,3 +2,6 @@ Por favor não fazer coisas indevidas com estas informações
 Efetuando praticas de logica de programação utilizando python 3.0
 
 Inclusão de versão.
+
+
+Existirá variações de codigos, mas no final o codigo vai ser aceito em Portugues.
