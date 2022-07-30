@@ -6,5 +6,5 @@ while(count):
         print(VarInput)
         count-=1
     VarInput+=1
-    
+
    
