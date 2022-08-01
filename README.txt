@@ -4,7 +4,10 @@ Make some pratice everyday using python to resolve problem's in urionlinejudge
 
 # Becrowd-Python
 
-Codigo Feitos por
+Por favor nao use indevidamente.
 
-Victor Nico
-Alexandre
+Codigo Feitos por
+Victor Nico Espindola  
+
+
+
