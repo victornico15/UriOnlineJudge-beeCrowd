@@ -12,3 +12,6 @@ print(lista)
 
 #  METODO DE RECEBER LISTA  QND CRIADA DENTRO DE UM LACO EM UMA UNICA LINHA
 
+
+
+a, b, c = list(map(float, input().split()))
