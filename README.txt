@@ -10,4 +10,4 @@ Codigo Feitos por
 Victor Nico Espindola  
 
 
-
+Commit por comando.
