@@ -1,20 +1,24 @@
-soma = 0
-j=0
-while j != 1:
-    M,N = input().split(" ")
-    M = int(M)
-    N = int(N)
-    soma = 0
-    if M > N:
-        aux = M
-        M = N
-        N = aux
-    if M<=0 or N<=0:
-        j = 1
-    if j!=1:
-        for i in range(M,N+1):
-            print('%d '%(i),end="")
-            soma+=i
-            if i == N:
-                print('Sum=%d'%(soma))
+
+while(True):
+   soma=0
+   x, y = map(int, input().split())
+   if(x<=0 or y<=0):
+       break
+   if(x>=y):
+       for i in range(y,x+1,1):
+           print('%d '%(i),end="")
+           soma=soma+i
+           if(i==x):
+               print("Sum={}".format(soma))
+   if(y>=x):
+       for i in range(x,y+1,1):
+           print('%d '%(i),end="")
+           soma=soma+i
+           if(i==y):
+               print("Sum={}".format(soma))
+           
+           
+           
+           
+       
     

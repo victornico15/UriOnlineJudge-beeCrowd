@@ -1,9 +1,13 @@
 
+animal=[10,20,30]
+print(animal )
 
+for i in animal:
+    print(i)
 # manipulacao de lista 
 
 #multiplicando a lista
-inteiros = [1,3,4,5,7,8]
+"""inteiros = [1,3,4,5,7,8]
 quadrados = [n*n for n in inteiros]
 frutas = ["maçã", "banana", "laranja", "melancia"]
 
@@ -14,4 +18,4 @@ print(lista)
 
 
 
-a, b, c = list(map(float, input().split()))
+a, b, c = list(map(float, input().split()))"""
