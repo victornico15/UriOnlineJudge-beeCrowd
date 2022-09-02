@@ -1,33 +1,30 @@
-x,y = map(int,input().split())
+from multiprocessing.resource_sharer import stop
 
-n = []
-i = 0
-k = 0
-while i < y-x:
-    for j in range(1, x + 1):
-        n.append(i + 1)
-        aux = n[k]
-        n[k] = str(n[k])
-        k = k + 1
-        i = i + 1
-   
-    k = 0
-    n = ' '.join(n)
-    print(n)
-    n =[]
-z = y%x
 
-if z ==0:
-    for w in range(y - x,y):
-        n.append(w + 1)
-        n[k] = str(n[k])
-        k = k + 1
-    n = ' '.join(n)
-    print(n)
-if z !=0:
-    for w in range(aux,y):
-        n.append(w + 1)
-        n[k] = str(n[k])
-        k = k + 1
-    n = ' '.join(n)
-    print(n)
+X,Y = list(map(int,input().split()))
+
+Aux1=1
+Aux2=X
+#indice referente aos numeros 
+indice=1
+#linha 
+while(Aux1<Y):   
+    
+    
+    if(indice==Y+1):
+        break
+    Aux2=0
+    #coluna
+    while(Aux2<X):
+        if(Aux2==X-1):
+            print(indice)
+        else:
+            print(indice,"",end="")
+        
+        Aux2+=1
+        indice+=1
+
+    
+    Aux1+=1
+    
+

@@ -1,4 +1,7 @@
 
+print('t', end="")#print sem quebra de linha
+
+
 animal=[10,20,30]
 print(animal )
 
