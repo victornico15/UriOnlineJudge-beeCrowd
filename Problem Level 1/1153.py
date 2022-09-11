@@ -1,4 +1,4 @@
- n = int(input())
+n = int(input())
 fatorial = 1
 
 while n >= 1:

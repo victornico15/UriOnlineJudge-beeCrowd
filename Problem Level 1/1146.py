@@ -14,7 +14,7 @@ while(True):
     """
     
     
-    i = True
+i = True
 j=1
 while i:
     X = int(input())
